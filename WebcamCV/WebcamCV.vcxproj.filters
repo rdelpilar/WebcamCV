@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="3rd Party">
+      <UniqueIdentifier>{904518fb-7acb-4935-8469-a4fdfd7b92a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{5c51033c-635a-4a1a-90c4-7bb52ceef979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{919c4724-fdad-481a-96a2-d11b24425991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{fda081c3-1288-4eca-9123-2db62c977d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{cd47970c-744d-4d38-a216-8b73967967b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{6a82fd04-02a5-46e4-a249-8a00c46ee041}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3rdparty\CDeviceProber.cpp">
+      <Filter>3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\CController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\CFrameCapture.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\CFrameWorker.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="View\CGLWidget.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\CMainWindow.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\CMWFaceDetectionTab.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\CMWLiveFeedTab.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\CMWMotionDetectionTab.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3rdparty\CDeviceProber.h">
+      <Filter>3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\VideoInput\include\videoInput.h">
+      <Filter>3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\Config.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\CController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\CFaceDetectionFrameProcessor.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\CFrameCapture.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\CFrameProcessorInterface.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\CFrameWorker.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\CLiveFeedFrameProcessor.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\CMotionDetectionFrameProcessor.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\CSingleton.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures\CameraProperties.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="View\CGLWidget.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\CMainWindow.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\CMWFaceDetectionTab.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\CMWLiveFeedTab.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\CMWMotionDetectionTab.h">
+      <Filter>View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>

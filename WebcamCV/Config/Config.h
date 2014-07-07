@@ -1,0 +1,53 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define CAM_PROP_WIDTH_320		320
+#define CAM_PROP_WIDTH_640		640
+#define CAM_PROP_WIDTH_800		800
+#define CAM_PROP_WIDTH_1280		1280
+
+#define CAM_PROP_HEIGHT_240		240
+#define CAM_PROP_HEIGHT_480		480
+#define CAM_PROP_HEIGHT_600		600
+#define CAM_PROP_HEIGHT_720		720
+#define CAM_PROP_HEIGHT_960		960
+
+#define CAM_PROP_FPS_25			25
+#define CAM_PROP_FPS_30			30
+#define CAM_PROP_FPS_60			60
+
+#define MIN_FRAME_WIDTH			320
+#define MIN_FRAME_HEIGHT		240
+
+#define DEF_PB_WIDTH			100
+#define DEF_PB_HEIGHT			40
+
+#define MIN_WIN_WIDTH			380
+#define MIN_WIN_HEIGHT			440
+
+#define TAB_COORD_X				20
+#define TAB_COORD_Y				20
+
+#define MIN_TAB_WIDTH			342
+#define MIN_TAB_HEIGHT			370
+
+#define MIN_LINE_EDIT_WIDTH		25
+#define MIN_LINE_EDIT_HEIGHT	20
+
+#define MIN_LABEL_WIDTH			16
+#define MIN_LABEL_HEIGHT		16
+
+#define MIN_CHECKBOX_WIDTH		20
+#define MIN_CHECKBOX_HEIGHT		20
+
+#define DEF_LAYOUT_SPACING		5
+
+#define	SECOND					1000
+
+enum t_tabindex { INVALID = -1, 
+					LIVE_FEED,
+					MOTION_DETECTION,
+					FACE_DETECTION,
+					OBJECT_TRACKING };
+
+#endif

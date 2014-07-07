@@ -1,0 +1,14 @@
+#ifndef CAMERAPROPERTIES_H
+#define CAMERAPROPERTIES_H
+
+typedef struct _CAMERAPROP
+{
+	int		CAM_PROP_DEVICE_ID;
+	char*	CAM_PROP_DEVICE_NAME;	
+	double	CAM_PROP_FRAME_WIDTH;
+	double	CAM_PROP_FRAME_HEIGHT;
+	double	CAM_PROP_FPS;
+	double	CAM_PROP_SIZE;
+} CAMPROP;
+
+#endif
